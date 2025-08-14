@@ -9,6 +9,8 @@ import { useRealtime } from '@/hooks/useRealtime';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 
+
+
 export default function InventoryScreen() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);

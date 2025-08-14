@@ -9,6 +9,8 @@ import { useRealtime } from '@/hooks/useRealtime';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 
+
+
 export default function CustomersScreen() {
   const [searchQuery, setSearchQuery] = useState('');
   const { user } = useAuth();

@@ -11,6 +11,8 @@ import { supabase } from '@/services/supabase';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { generateInvoicePDF, shareInvoice } from '@/services/invoiceGenerator';
+import { TextInput } from 'react-native';
+
 
 interface CartItem {
   id: string;
